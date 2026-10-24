@@ -1,1 +1,21 @@
-/data/
+# Ambiente e caches
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+ 
+# Segredos (chaves de API)
+.env
+ 
+# Dados: ajuste conforme o tamanho e a licença dos dados
+data/raw/
+data/interim/
+# data/processed/   <- descomente para NÃO versionar os dados finais também
+ 
+# Cache de requisições
+http_cache.sqlite
+*.sqlite
+ 
+# Sistema
+.DS_Store
+Thumbs.db

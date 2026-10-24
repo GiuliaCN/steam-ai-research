@@ -1,0 +1,29 @@
+# --- Núcleo de dados ---
+pandas
+numpy
+pyarrow            # leitura/escrita de parquet
+openpyxl           # ler/escrever .xlsx, caso apareça
+
+# --- Chamadas a APIs ---
+requests
+httpx              # alternativa moderna, com suporte a async
+tenacity           # retentativas com backoff para APIs instáveis
+python-dotenv      # guardar chaves/tokens em .env
+requests-cache     # cache local das respostas (evita estourar limite da API)
+
+# --- Gráficos ---
+matplotlib
+seaborn
+plotly
+kaleido            # exportar gráficos do plotly como PNG/PDF
+
+# --- Análise estatística / ML ---
+scipy
+statsmodels
+scikit-learn
+
+# --- Notebook / ambiente ---
+ipykernel          # necessário para o VS Code rodar os notebooks
+ipywidgets
+tqdm               # barras de progresso nas coletas longas
+nbstripout         # remove saídas dos notebooks no commit (Git limpo)
